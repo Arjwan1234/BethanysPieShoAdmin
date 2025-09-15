@@ -1,0 +1,20 @@
+﻿<table class="table table-condensed table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Arabic Description</th>
+        <th>Date Added</th>
+        <th>Actions</th>
+    </tr>
+    @foreach (var category in Model.Categories)
+    {
+        <tr>
+            <td>@category.CategoryId</td>
+            <td>@category.Name</td>
+            <td>@category.DateAdded?.ToShortDateString()</td>
+            <td>
+                <a asp-action="Details" asp-route-id="@category.CategoryId">Details</a>
+            </td>
+        </tr>
+    }
+</table>
