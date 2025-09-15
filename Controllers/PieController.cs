@@ -3,6 +3,7 @@ using BethanysPieShopAdmin.Models.Repositories;
 using BethanysPieShopAdmin.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using System;
 
 namespace BethanysPieShopAdmin.Controllers
 {
@@ -83,6 +84,8 @@ namespace BethanysPieShopAdmin.Controllers
                     await _pieRepository.AddPieAsync(pie);
 
                     Console.WriteLine("PieController: Add action executed.");
+
+                    Console.WriteLine("Sherif");
 
                     return RedirectToAction(nameof(Index));
                 }
