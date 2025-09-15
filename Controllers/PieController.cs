@@ -87,7 +87,7 @@ namespace BethanysPieShopAdmin.Controllers
                     Console.WriteLine("Arjwwan test");
 
 
-                    Console.WriteLine("Sherif test");
+                    Console.WriteLine("Sherif  aaa");
 
                     return RedirectToAction(nameof(Index));
                 }
