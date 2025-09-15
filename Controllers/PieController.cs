@@ -84,6 +84,8 @@ namespace BethanysPieShopAdmin.Controllers
                     await _pieRepository.AddPieAsync(pie);
 
                     Console.WriteLine("PieController: Add action executed.");
+                    Console.WriteLine("Arjwwan");
+
 
                     Console.WriteLine("Sherif");
 
