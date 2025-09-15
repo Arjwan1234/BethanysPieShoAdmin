@@ -81,6 +81,9 @@ namespace BethanysPieShopAdmin.Controllers
                     };
 
                     await _pieRepository.AddPieAsync(pie);
+
+                    Console.WriteLine("PieController: Add action executed.");
+
                     return RedirectToAction(nameof(Index));
                 }
             }
