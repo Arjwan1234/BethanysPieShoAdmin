@@ -84,10 +84,10 @@ namespace BethanysPieShopAdmin.Controllers
                     await _pieRepository.AddPieAsync(pie);
 
                     Console.WriteLine("PieController: Add action executed.");
-                    Console.WriteLine("Arjwwan");
+                    Console.WriteLine("Arjwwan aaa");
 
 
-                    Console.WriteLine("Sherif");
+                    Console.WriteLine("Sherif  aaa");
 
                     return RedirectToAction(nameof(Index));
                 }
