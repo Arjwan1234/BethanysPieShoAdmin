@@ -87,7 +87,7 @@ namespace BethanysPieShopAdmin.Controllers
                     Console.WriteLine("Arjwwan test 54");
 
 
-                    Console.WriteLine("Sherif  aaa");
+                    Console.WriteLine("Sherif  Check");
 
                     return RedirectToAction(nameof(Index));
                 }
